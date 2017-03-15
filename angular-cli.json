@@ -18,9 +18,14 @@
       "tsconfig": "tsconfig.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "styles.css",
+        "bootstrap.min.css",
+        "awesome-bootstrap-checkbox.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "jquery.min.js",
+        "bootstrap.min.js"
+      ],
       "environments": {
         "source": "environments/environment.ts",
         "dev": "environments/environment.ts",
